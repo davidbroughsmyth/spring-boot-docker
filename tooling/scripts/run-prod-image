@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e -u
+
+docker run --rm --name spring-boot-hello-world -p 8080 spring-boot-hello-world
